@@ -1,0 +1,22 @@
+
+# Core data processing
+numpy
+pandas
+
+# Machine learning
+scikit-learn
+xgboost
+joblib
+
+# Deep learning - LSTM models
+tensorflow
+
+# Data visualization
+matplotlib
+seaborn
+
+# Model explainability
+shap
+
+# Hyperparameter optimization
+optuna
