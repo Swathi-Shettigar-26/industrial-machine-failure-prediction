@@ -24,7 +24,22 @@ tmp/
 .DS_Store
 Thumbs.db
 
-# Raw NASA dataset
-dataset/raw/
+# NASA dataset - include only files required by the application
+dataset/*
+!dataset/raw/
+dataset/raw/*
+!dataset/raw/test_FD001.txt
+!dataset/raw/RUL_FD001.txt
 
 /random_forest_model.pkl
+
+# Node / Frontend dependencies & build outputs
+node_modules/
+*/node_modules/
+dist/
+*/dist/
+build/
+*/build/
+.vite/
+*/.vite/
+*.local
